@@ -14,7 +14,7 @@ function check(){
    if(q1==''||q1==null){
    
         document.getElementById("q1na").style.visibility="visible";
-        
+        return false
        }
        
        if(q2==''||q2==null){
