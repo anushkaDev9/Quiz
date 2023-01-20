@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(208, 245, 245);
+}
+.css-quiz-div{
+    background-color: white;
+    border:2px double grey;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 10px;
+   
+}
+.css-quiz-div h2{
+    text-align: center;
+    
+}
+.css-quiz-div label{
+    padding-left: 5%;
+}
+input[type="radio"] {
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-right: 0.5rem;
+   
+}
+.css-quiz-div .submit:hover{
+    font: inherit; 
+padding: 0.5rem 1.5rem; 
+border: 1px solid #b2e7eb; 
+border-radius: 4px; 
+background: #b2e7eb; 
+color: black; cursor: pointer; 
+margin-right: 1rem; 
+text-decoration: none; 
+Display:
+ inline-block;
+ text-shadow: 2px 2px 2px white;
+}
+.css-quiz-div .submit{
+    font: inherit; 
+padding: 0.5rem 1.5rem; 
+border: 1px solid #08dfee; 
+border-radius: 4px; 
+background: #00eeff; 
+color: black; cursor: pointer; 
+margin-right: 1rem; 
+text-decoration: none; 
+Display:
+ inline-block;
+ text-shadow: 2px 2px 2px white;
+ margin-left: 60%;
+
+}
+.css-quiz-div .refresh{
+    font: inherit; 
+padding: 0.5rem 1.5rem; 
+border: 1px solid #08dfee; 
+border-radius: 4px; 
+background: #00eeff; 
+color: black; cursor: pointer; 
+margin-right: 1rem; 
+text-decoration: none; 
+Display:
+ inline-block;
+ text-shadow: 2px 2px 2px white;
+ margin-left: 6%;
+}
+.css-quiz-div .refresh:hover{
+    font: inherit; 
+padding: 0.5rem 1.5rem; 
+border: 1px solid #b2e7eb; 
+border-radius: 4px; 
+background: #b2e7eb; 
+color: black; cursor: pointer; 
+margin-right: 1rem; 
+text-decoration: none; 
+Display:
+ inline-block;
+ text-shadow: 2px 2px 2px white;
+}
+#q1na{
+    visibility: hidden;
+    color:red;
+    padding-left: 5%;
+    }
+    #q2na{
+        visibility: hidden;
+        color:red;
+        padding-left: 5%;
+        }
+    #q3na{
+            visibility: hidden;color:red;padding-left: 5%;
+     }
+     #q4na{
+    visibility: hidden;color:red;padding-left: 5%;
+     }
+     #q5na{
+      visibility: hidden;color:red;padding-left: 5%;
+       }
+      #q6na{
+          visibility: hidden;color:red;padding-left: 5%;
+         }       
+         #q7na{
+        visibility: hidden;color:red;padding-left: 5%;
+      }
+      #q8na{
+        visibility: hidden;color:red;padding-left: 5%;
+      }
+      #q9na{
+        visibility: hidden;color:red;padding-left: 5%;
+      }
+      #q10na{
+        visibility: hidden;color:red;padding-left: 5%;
+      }
+      #correct1{
+        visibility: hidden;color:green;padding-left: 5%;
+    }           
+    #correct3{
+        visibility: hidden;color:green;padding-left: 5%;
+    }
+    #correct2{
+        visibility: hidden;color:green;padding-left: 5%;
+    }    
+    #correct4{
+        visibility: hidden;color:green;padding-left: 5%;
+    }           
+    #correct5{
+        visibility: hidden;color:green;padding-left: 5%;
+    }     
+    #correct6{
+        visibility: hidden;color:green;padding-left: 5%;
+    }           
+    #correct7{
+        visibility: hidden;color:green;padding-left: 5%;
+    }  
+    #correct8{
+        visibility: hidden;color:green;padding-left: 5%;
+    }
+    #correct9{
+        visibility: hidden;color:green;padding-left: 5%;
+    }           
+    #correct10{
+        visibility: hidden;color:green;padding-left: 5%;
+    }
+    

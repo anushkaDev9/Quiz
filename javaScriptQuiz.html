@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScript Quiz</title>
+        <link rel="stylesheet" href="JavaScriptQuiz.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <script src="javascriptQuiz.js"></script>
+    <body>
+      <div class="js-quiz-div">
+            <h2>JavaScript Quiz</h2>
+            <hr>
+            <form onsubmit="return check()" name="javascriptQuiz">
+            <label>1)What is JavaScript?</label><br>
+            <input type="radio" name="q1" value="a">a) JavaScript is a scripting language used to 
+            make the website interactive<br>
+            <input type="radio" name="q1" value="b">b) JavaScript is an assembly language used to 
+            make the website interactive<br>
+            <input type="radio" name="q1" value="c">c) JavaScript is a compiled language used to 
+            make the website interactive<br>
+            <input type="radio" name="q1" value="d">d) None of the mentioned<br>
+            <p id="q1na">question 1 not answered</p>
+            <hr>
+            <label>2)Which of the following is correct about JavaScript?</label><br>
+            <input type="radio" name="q2" value="a">a) JavaScript is an Object-Based language<br>
+            <input type="radio" name="q2" value="b">b) JavaScript is Assembly-language<br>
+            <input type="radio" name="q2" value="c">c) JavaScript is an Object-Oriented language<br>
+            <input type="radio" name="q2" value="d">d) JavaScript is a High-level language<br>
+            <p id="q2na">question 2 not answered</p>
+            <hr>
+            <label>3)Among the given statements, which statement defines closures in JavaScript?</label><br>
+            <input type="radio" name="q3" value="b">a) JavaScript is a function that is enclosed 
+            with references to its inner function scope<br>
+            <input type="radio" name="q3" value="b">b) JavaScript is a function that is enclosed 
+            with references to its lexical environment<br>
+            <input type="radio" name="q3" value="c">c) JavaScript is a function that is enclosed
+             with the object to its inner function scope<br>
+            <input type="radio" name="q3" value="d">d) None of the mentioned<br>
+            <p id="q3na">question 3 not answered</p>
+            <hr>
+            <label>4)Arrays in JavaScript are defined by which of the following statements?</label><br>
+            <input type="radio" name="q4" value="a">a) It is an ordered list of values<br>
+            <input type="radio" name="q4" value="b">b) It is an ordered list of objects<br>
+            <input type="radio" name="q4" value="c">c) It is an ordered list of string<br>
+            <input type="radio" name="q4" value="d">d) It is an ordered list of functions<br>
+            <p id="q4na">question 4 not answered</p>
+            <hr>
+            <label>5)Which of the following is not javascript data types?</label><br>
+            <input type="radio" name="q5" value="a">a) Null type<br>
+            <input type="radio" name="q5" value="b">b) Undefined type<br>
+            <input type="radio" name="q5" value="c">c) Number type<br>
+            <input type="radio" name="q5" value="d">d) All of the mentioned<br>
+            <p id="q5na">question 5 not answered</p>
+            <hr>
+            <label>6)Which HTML tag is used to declare internal Javscript?</label><br>
+            <input type="radio" name="q6" value="a">a) &lt;link&gt;<br>
+            <input type="radio" name="q6" value="b">b) &lt;style&gt;<br>
+            <input type="radio" name="q6" value="c">c) .html<br>
+            <input type="radio" name="q6" value="d">d) .htl<br>
+            <p id="q6na">question 6 not answered</p>
+            <hr>
+            <label>7)Where is Client-side JavaScript code is embedded within HTML documents?</label><br>
+            <input type="radio" name="q7" value="a">a) A URL that uses the special javascript:code<br>
+            <input type="radio" name="q7" value="b">b) URL that uses the special javascript:protocol<br>
+            <input type="radio"name="q7" value="c">c) A URL that uses the special javascript:encoding
+            <br>
+            <input type="radio"name="q7" value="d">d) A URL that uses the special javascript:stack<br>
+            <p id="q7na">question 7 not answered</p>
+            <hr>
+            <label>8)What is the effect of the &lt;b&gt; tag?</label><br>
+            <input type="radio" name="q8" value="a">a) bold<br>
+            <input type="radio" name="q8" value="b">b) bright<br>
+            <input type="radio" name="q8" value="c">c) dark<br>
+            <input type="radio" name="q8" value="d">d) black<br>
+            <p id="q8na">question 8 not answered</p>
+            <hr>
+            <label>9)Which of the following object is the main entry point to all client-side JavaScript features and APIs?</label><br>
+            <input type="radio" name="q9" value="a">a) Position<br>
+            <input type="radio" name="q9" value="b">b) Window<br>
+            <input type="radio" name="q9" value="c">c) Standard<br>
+            <input type="radio" name="q9" value="d">d) Location<br>
+            <p id="q9na">question 9 not answered</p>
+            <hr>
+            <label>10)Which of the following can be used to call a JavaScript Code Snippet?</label><br>
+            <input type="radio" name="q10" value="a">a) Function/Method<br>
+            <input type="radio" name="q10" value="b">b) Preprocessor<br>
+            <input type="radio" name="q10" value="c">c) Triggering Event<br>
+            <input type="radio" name="q10" value="d">d) RMI<br>
+            <p id="q10na">question 10 not answered</p>
+            <hr>
+            <button class="refresh"><a href="index.html">Main</a></button><button type="submit" class="submit">Submit</button>
+          </form>
+      </div>
+    </body>
+</html>
