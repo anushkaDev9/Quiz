@@ -14,44 +14,44 @@ function check(){
    if(q1==''||q1==null){
    
         document.getElementById("q1na").style.visibility="visible";
-        return false
+
        }
        
        if(q2==''||q2==null){
         document.getElementById("q2na").style.visibility="visible";
-        return false
+       
        } 
        if(q3==''||q3==null){
         document.getElementById("q3na").style.visibility="visible";
-        return false
+        
        }
        if(q4==''||q4==null){
         document.getElementById("q4na").style.visibility="visible";
-        return false
+       
        }
        if(q5==''||q5==null){
         document.getElementById("q5na").style.visibility="visible";
-        return false
+      
        }
        if(q6==''||q6==null){
         document.getElementById("q6na").style.visibility="visible";
-        return false
+        
        }
        if(q7==''||q7==null){
         document.getElementById("q7na").style.visibility="visible";
-        return false
+        
        }
        if(q8==''||q8==null){
         document.getElementById("q8na").style.visibility="visible";
-        return false
+       
        }
        if(q9==''||q9==null){
         document.getElementById("q9na").style.visibility="visible";
-        return false
+        
        }
        if(q10==''||q10==null){
         document.getElementById("q10na").style.visibility="visible";
-        return false
+       
        }
        
        var answersJS=["a","a","b","a","d","b","b","a","b","a"]
